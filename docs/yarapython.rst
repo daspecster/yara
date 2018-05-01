@@ -157,8 +157,8 @@ The saved rules can be loaded from the memory buffer:
 
 The result of ``load`` is also an instance of the class :py:class:`yara.Rules`.
 
-Instances of ``Rules`` also have a ``match`` method, which allows you to apply
-the rules to a file:
+Instances of ``Rules`` also have a ``match`` method, which allows
+you to apply the rules to a file:
 
 .. code-block:: python
 
